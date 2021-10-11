@@ -1,0 +1,151 @@
+h1{
+    padding-top: 3%;
+    font-size: 150%;
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+    
+  }
+  
+  nav a{
+      color:#000;
+      background:rgba(248, 248, 248,0.3);
+      display: inline-block;
+      width: 15%;
+      height: 40px;
+      padding-top: 30px;
+      text-decoration:none;
+      background-color: rgba(255, 255, 255, 0.3);
+      text-align: center;
+      border-radius: 5px;
+      
+      margin: 0 auto;
+      
+    }
+  
+    nav a:active{
+      background-color: #ffffff;
+    }
+  
+  
+  .left{
+    display: inline-block;
+    line-height:20px;
+    background:rgb(152, 177, 43);
+    width: 15.7%;
+    height: 60%;
+    float: left;
+    margin: 0 auto;
+  }
+  
+  
+  
+  
+  header{
+    background:#929191;
+    background-image: url("fly.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    height: 230px;
+    padding: 2px;
+  }
+  
+  
+  section{
+    background:#787981;
+  }
+  
+  
+  h2{
+    color:#07115e;
+    text-transform:uppercase;
+    font-size:200%;
+  }
+  
+  
+  body{
+    padding: 10px;
+    margin: 10px;
+    background:rgb(248, 248, 248);
+    
+    
+  }
+  
+  section{
+    background-image: url("../Images/frisbee.jpg");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+  }
+  
+  .right{
+    padding-left: 10px;
+    background:#ffffff;
+    display: inline-block;
+    width:60%;
+  }
+  
+  .active{
+    background-color: #ffffff;
+  }
+  
+  img{
+    background:rgb(152, 177, 43);
+    width: 200px;
+    height: 100px;
+    border: 2px solid #000000;
+    padding:20px;
+    float:left;
+    margin: 0 auto;
+  
+    
+  }
+
+  /*tr:nth-of-type(2n){
+      background-color: tomato;
+  }*/
+
+  tr:first-of-type{
+      background-color: #9acd32;
+     
+  }
+
+  th:first-of-type{
+    border-radius: 10% 0px 0px 0px;
+    text-align: left;
+  }
+
+  th:last-of-type{
+      border-radius: 0px  10%  0px 0px;
+  }
+
+  tr{
+      background-color: thistle;
+      height: 40px;
+      
+      opacity: 0.8;
+      
+  }
+
+  table{
+      margin: 0 auto;
+      background-color: #f5deb3;
+      text-align: center;
+      border-radius: 10px;
+      
+  }
+
+  td:nth-last-of-type(3n){
+      text-align: left;
+  }
+
+  tr:hover{
+      opacity: 0.3;
+  }
+
+  td{
+    color: #080808;
+    font-family: cursive,Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-stretch: condensed;
+
+  }
